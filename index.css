@@ -1,0 +1,23 @@
+
+.display{
+    display: flex;
+    width: 500px;
+    height: 30%;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    align-items: flex-end;
+    justify-content:end;
+}
+.calculator{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+.buttons{
+height: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
